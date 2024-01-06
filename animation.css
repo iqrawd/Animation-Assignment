@@ -1,0 +1,68 @@
+.anim{
+    width: 300px;
+    background-color: rgb(12, 104, 151);
+    border: 2px solid black;
+    padding: 10px;
+    margin-top: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    display: flex;
+}
+.anim:hover{
+    transform: rotateX(360deg);
+    transition: 1.5s;
+}
+.letter p{
+    border:2px solid black;
+    padding: 0px;
+    margin-top: 3px;
+    width: 50px;
+    height: 60px;
+    background-color:rgb(234, 132, 210);
+    margin-left: 10px;
+    font-weight: 200;
+    font-size: 25PX;
+}
+.letter:hover p:nth-child(even){
+    transform: rotateX(360deg);
+    transition: 1.5s;
+}
+.letter{
+    align-items: center;
+    justify-content:center;
+    display: flex;
+    text-align: center;
+    margin-top: 30PX;
+}
+.letter:hover p:nth-child(odd){
+    transform: rotatey(360deg);
+    transition: 1.5s;
+}
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    ;
+}
